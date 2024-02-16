@@ -1,5 +1,6 @@
 package guru.springframework.sfgpetclinic.model;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -25,8 +26,8 @@ class PersonTest {
 
         // then
         assertAll("Test Props Set",
-                () -> assertEquals(person.getFirstName(), "Joe2", "First name failed"),
-                () -> assertEquals(person.getLastName(), "Buckxx", "Last Name Failed"));
+                () -> assertEquals(person.getFirstName(), "Joe", "First name failed"),
+                () -> assertEquals(person.getLastName(), "Buck", "Last Name Failed"));
     }
 
 }
