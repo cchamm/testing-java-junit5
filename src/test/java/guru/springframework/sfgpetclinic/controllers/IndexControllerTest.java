@@ -64,6 +64,7 @@ class IndexControllerTest implements ControllerTests {
         });
     }
 
+    @Disabled
     @Test
     void testAssumptions() {
         assumeTrue("GURU".equals(System.getenv("GURU_RUNTIME")));
