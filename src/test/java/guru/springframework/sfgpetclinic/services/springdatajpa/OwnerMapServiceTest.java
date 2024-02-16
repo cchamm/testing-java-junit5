@@ -88,7 +88,6 @@ class OwnerMapServiceTest {
                 @Test
                 void findOwner() {
 
-                    System.out.println("FindOwnersTests - findOwner");
                     Owner foundOwner = ownerMapService.findById(1L);
 
                     assertThat(foundOwner).isNotNull();
